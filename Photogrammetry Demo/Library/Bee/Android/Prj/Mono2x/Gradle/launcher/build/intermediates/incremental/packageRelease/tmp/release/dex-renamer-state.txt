@@ -1,0 +1,4 @@
+#Thu May 05 22:58:40 CDT 2022
+base.0=/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
