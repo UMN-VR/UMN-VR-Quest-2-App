@@ -1,6 +1,6 @@
 # Goldstein Museum of Design Photogrammetry VR Tour App
 
-###### READMEv4.2
+###### READMEv4.3
 
 
 ![Env](Gifs/test7.gif)
@@ -72,19 +72,23 @@ VR-Photogrammetry/
 │   │   
 │   └── README.md
 ```
-
+---
 ## Quest Instalation Methods & Instructions
 This section attemps to be a full set of instructions to get a you up and running with the pre-complied .apk app
 
+---
 ### WebXR 
 You may go to "$URL" on a headset's browser or a PC connected to a Headset and try the experience 
 
 (NOT AVALIABLE YET)
 
+---
+
 ### Oculus App Lab Installation: 
 
 (NOT AVALIABLE YET)
 
+---
 ### Sidequest .apk Configuration & Installation
 
 #### Quest Setup
@@ -92,7 +96,10 @@ You may go to "$URL" on a headset's browser or a PC connected to a Headset and t
 
 #### Installer PC Setup
 * Install Sidequest on a computer. 
+https://sidequestvr.com
+
 * Download .apk file to computer
+https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/Proof-Of-Concept
 
 #### Uploading:
 * Install .apk to Quest via SideQuest
@@ -101,7 +108,7 @@ You may go to "$URL" on a headset's browser or a PC connected to a Headset and t
 * Go to "Other Sources in App menu"
 * Open "Photogrammetry Demo" App 
 
-
+---
 
 ## Polycam
 Polycam is the photogrammetry app that was used to scan most of the 3D models. 
