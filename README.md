@@ -1,11 +1,12 @@
 # Goldstein Museum of Design Photogrammetry VR Tour App
 
+###### READMEv4.0
 
 
 ![Env](Gifs/test7.gif)
 Video of app v1.0: https://youtu.be/eQZTAWonZkg
 
-###### READMEv3.9
+
 
 * [Overview](#Overview)
 
