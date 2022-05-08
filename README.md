@@ -1,14 +1,9 @@
 # Goldstein Museum of Design Photogrammetry VR Tour App
+######READMEv3.0
 
 ![Env](Gifs/test7.gif)
 
-
-
-README IS WORK IN PROGRESS. DO NOT TAKE AT FACE VALUE. 
-
-Video of v1.0: https://youtu.be/eQZTAWonZkg
-
-
+Video of app v1.0: https://youtu.be/eQZTAWonZkg
 
 * [Overview](#Overview)
 
@@ -27,17 +22,17 @@ Video of v1.0: https://youtu.be/eQZTAWonZkg
 ## Overview
 The aim of this project is to create a virtual museum inspired on a real life one. Using the same artifacts but on you and improved virtual environment. This will give the U a global reach and cement the university's position as a pioneer in virtual reality. 
 
-#### Videos:
-![Env](Gifs/test0.gif)
+### Videos:
+<!--![Env](Gifs/test0.gif)
 ![Env](Gifs/test1.gif)
 ![Env](Gifs/test2.gif)
 ![Env](Gifs/test3.gif)
 ![Env](Gifs/test4.gif)
 ![Env](Gifs/test5.gif)
-![Env](Gifs/test6.gif)
+![Env](Gifs/test6.gif)-->
 
 #### Hardware:
-At the present moment only quest 2 native SDK app builds are being provided since the project is just at the proof of concept stage. Eventually the idea is to release a WebGL and host it on a domain so that everyone can access it regardless of platform. 
+At the present moment only Quest 2 native SDK app builds are being provided since the project is just at the proof of concept stage. Eventually the idea is to release a WebXR build and host it on a domain so that everyone can access it regardless of platform. 
 
 
 #### Software:
@@ -69,37 +64,81 @@ VR-Photogrammetry/
 │   │   
 │   └── README.md
 ```
-## General Instructions
-This section attemps to be a full set of instructions to get a you up and running with this code.
 
-#### Configuration
-TODO
+## WebXR 
 
+You may go to "$URL" on a headset's browser or a PC connected to a Headset and try the experience 
 
-#### Running:
+(NOT AVALIABLE YET)
 
+## Instalation Methods & Instructions
+This section attemps to be a full set of instructions to get a you up and running with the pre-complied .apk app
 
+### Sidequest .apk Configuration & Installation
+
+#### Quest Setup
+* Enable Developer Mode On Quest. 
+
+#### Installer PC Setup
+* Install Sidequest on a computer. 
+* Download .apk file to computer
 
 #### Uploading:
+* Install .apk to Quest via SideQuest
 
+#### Running:
+* Go to "Other Sources in App menu"
+* Open "Photogrammetry Demo" App 
+
+### Oculus App Lab Installation: 
+
+(NOT AVALIABLE YET)
+
+## Polycam
+Polycam is the photogrammetry app that was used to scan most of the 3D models. 
+
+VR Blaze (GoldyDogV4)
+https://youtu.be/8dp5lvD6FZA
+https://poly.cam/capture/BAF1E307-5185-48E4-866D-A84A12247B99
+
+Robot Hand
+https://poly.cam/capture/78286198-5910-468A-AC13-7C8DE018AFB0
+
+Robot Hand Glove
+https://poly.cam/capture/1810CB6D-5C9A-43F0-ADE3-848C0CCB610A
+
+Mini 2
+https://poly.cam/capture/1810CB6D-5C9A-43F0-ADE3-848C0CCB610A
+
+Blaze Promo Vid
+https://poly.cam/capture/64365421-F546-46C2-90AB-B86434DDAE5A
 
 ## Description of App Logic
+
+#####v1.0: 
+App does not include any multiplayer or in game interactivity functionality is simply starts up the scene starts rendering the scene and never changes it.
+
+## WebXR 
+This is the software that allows for a unity environment to be packaged as a website plug-in that allows for a VR experience without installation of an application. 
 
 
 ## Additional Project Components & Tecniques 
 
 #### ShapesXR Plugin:
-
+Allows for direct import of models created in shapesXR. After the models have been imported it is recommended to uninstall and remove the file located in assets since failing to doing so usually means you won't be able to build successfully. 
 
 #### Lowering polygon counts:
-
+If performance is lackluster polygon counts can be reduced through joining close together nodes to create a mesh with a smaller filesize. You can also trim unnecessary parts of the model that take up space and don't contribute to aesthetics. This is all done in blender. 
 
 #### WebGL:
+Web GL is the render engine that allows WebXR to function. It is part of this software stack that will power the in-browser VR experience. 
+
+
 
 ## Future Work
 
 TODO
 
 ## External Links and References
-
+TODO
 
