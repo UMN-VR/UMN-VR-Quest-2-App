@@ -1,6 +1,6 @@
 # Goldstein Museum of Design Photogrammetry VR Tour App
 
-###### READMEv4.0
+###### READMEv4.1
 
 
 ![Env](Gifs/test7.gif)
@@ -142,7 +142,7 @@ Quest 2:
 ![Env](Gifs/test5.gif)
 
 ## Description of App Logic
-#####v1.0: 
+####v1.0: 
 App does not include any multiplayer or in game interactivity functionality is simply starts up the scene starts rendering the scene and never changes it.
 
 ## WebXR 
