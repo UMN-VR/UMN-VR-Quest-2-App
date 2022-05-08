@@ -1,8 +1,8 @@
 # Goldstein Museum of Design Photogrammetry VR Tour App
 
-![Spot Micro Walking](assets/spot_micro_walking.gif)
-![RVIZ](assets/rviz_animation.gif)
-![slam](assets/spot_micro_slam.gif)
+![Env](Gifs/test7.gif)
+
+
 
 README IS WORK IN PROGRESS. DO NOT TAKE AT FACE VALUE. 
 
@@ -26,6 +26,15 @@ Video of v1.0: https://youtu.be/eQZTAWonZkg
 
 ## Overview
 The aim of this project is to create a virtual museum inspired on a real life one. Using the same artifacts but on you and improved virtual environment. This will give the U a global reach and cement the university's position as a pioneer in virtual reality. 
+
+#### Videos:
+![Env](Gifs/test0.gif)
+![Env](Gifs/test1.gif)
+![Env](Gifs/test2.gif)
+![Env](Gifs/test3.gif)
+![Env](Gifs/test4.gif)
+![Env](Gifs/test5.gif)
+![Env](Gifs/test6.gif)
 
 #### Hardware:
 At the present moment only quest 2 native SDK app builds are being provided since the project is just at the proof of concept stage. Eventually the idea is to release a WebGL and host it on a domain so that everyone can access it regardless of platform. 
