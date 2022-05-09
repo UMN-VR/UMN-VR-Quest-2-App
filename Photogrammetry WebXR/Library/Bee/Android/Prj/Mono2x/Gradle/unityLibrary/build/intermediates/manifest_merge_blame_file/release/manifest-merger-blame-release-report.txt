@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="1.0" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-52
+13-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-49
+14
+15    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+15-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-77
+15-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:24-74
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-65
+17-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:20-62
+18
+19    <uses-feature
+19-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-88
+20        android:name="android.hardware.touchscreen"
+20-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-60
+21        android:required="false" />
+21-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:61-85
+22    <uses-feature
+22-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-71
+24        android:required="false" />
+24-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:72-96
+25    <uses-feature
+25-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-80
+27        android:required="false" />
+27-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:81-105
+28    <uses-feature
+28-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-111
+29        android:name="android.hardware.vr.headtracking"
+29-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:17-64
+30        android:required="true"
+30-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:65-88
+31        android:version="1" />
+31-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:89-108
+32
+33    <application android:extractNativeLibs="true" >
+33-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-24:17
+33-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+34        <activity
+34-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-13:16
+35            android:name="com.unity3d.player.UnityPlayerActivity"
+35-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+36            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+36-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:204-305
+37            android:hardwareAccelerated="false"
+37-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:341-376
+38            android:launchMode="singleTask"
+38-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:172-203
+39            android:resizeableActivity="false"
+39-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:306-340
+40            android:screenOrientation="landscape"
+40-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:134-171
+41            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+41-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-133
+42            <intent-filter>
+42-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+43-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+45-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+46                <category android:name="com.oculus.intent.category.VR" />
+46-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-66
+46-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-63
+47            </intent-filter>
+48
+49            <meta-data
+49-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+50                android:name="unityplayer.UnityActivity"
+50-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+51                android:value="true" />
+51-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+52            <meta-data
+52-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-78
+53                android:name="android.notch_support"
+53-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-54
+54                android:value="true" />
+54-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+55            <meta-data
+55-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:7-81
+56                android:name="com.oculus.vr.focusaware"
+56-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:18-57
+57                android:value="true" />
+57-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:58-78
+58        </activity>
+59
+60        <meta-data
+60-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-69
+61            android:name="unity.splash-mode"
+61-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-48
+62            android:value="0" />
+62-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:49-66
+63        <meta-data
+63-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-74
+64            android:name="unity.splash-enable"
+64-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-50
+65            android:value="True" />
+65-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:51-71
+66        <meta-data
+66-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+67            android:name="unity.launch-fullscreen"
+67-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+68            android:value="True" />
+68-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+69        <meta-data
+69-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+70            android:name="unity.allow-resizable-window"
+70-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-59
+71            android:value="False" />
+71-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:60-81
+72        <meta-data
+72-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-81
+73            android:name="notch.config"
+73-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-43
+74            android:value="portrait|landscape" />
+74-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:44-78
+75        <meta-data
+75-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-97
+76            android:name="com.samsung.android.vr.application.mode"
+76-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-70
+77            android:value="vr_only" />
+77-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:71-94
+78        <meta-data
+78-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-91
+79            android:name="com.unity.xr.oculus.LowOverheadMode"
+79-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-66
+80            android:value="false" />
+80-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:67-88
+81        <meta-data
+81-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-88
+82            android:name="com.unity.xr.oculus.LateLatching"
+82-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-63
+83            android:value="false" />
+83-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:64-85
+84        <meta-data
+84-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-93
+85            android:name="com.unity.xr.oculus.LateLatchingDebug"
+85-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-68
+86            android:value="false" />
+86-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:69-90
+87        <meta-data
+87-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-90
+88            android:name="com.oculus.supportedDevices"
+88-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-58
+89            android:value="quest|quest2" />
+89-->/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:59-87
+90    </application>
+91
+92</manifest>
