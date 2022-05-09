@@ -327,7 +327,7 @@ MonoBehaviour:
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN
     MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry
-    Demo
+    WebXR
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
@@ -490,9 +490,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b2faffff
-      m_LastClickedID: -1358
-      m_ExpandedIDs: 04fbffff30fbfffff65e0000645f00007a5f0000905f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -741,9 +741,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.565, y: 0.5853132, z: 2.98}
+    m_Target: {x: 2.9656904, y: -1.4310923, z: 0.8441341}
     speed: 2
-    m_Value: {x: 2.565, y: 0.5853132, z: 2.98}
+    m_Value: {x: 2.965228, y: -1.4314249, z: 0.8432502}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -790,13 +790,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18130542, y: 0.42392188, z: -0.08706483, w: -0.8831296}
+    m_Target: {x: 0.08666849, y: 0.8167248, z: -0.12716708, w: 0.5562004}
     speed: 2
-    m_Value: {x: -0.18129821, y: 0.42390501, z: -0.08706137, w: -0.88309443}
+    m_Value: {x: 0.086019516, y: 0.8160461, z: -0.12580779, w: 0.5575319}
   m_Size:
-    m_Target: 10.02638
+    m_Target: 6.9956264
     speed: 2
-    m_Value: 10.02638
+    m_Value: 7.000877
   m_Ortho:
     m_Target: 0
     speed: 2

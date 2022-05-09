@@ -1,34 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/res/merged/release/values-v28_values-v28.arsc.flat",
+            "outputFile": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v28/styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "0",
-                        "startOffsets": "53",
-                        "endLines": "4",
-                        "endColumns": "8",
-                        "endOffsets": "229"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "8",
-                        "endOffsets": "229"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v21/styles.xml",
+                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -49,14 +25,40 @@
             ]
         },
         {
-            "outputFile": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/res/merged/release/values_values.arsc.flat",
+            "outputFile": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/res/merged/release/values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/ids.xml",
+                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v28/styles.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/res/merged/release/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
                     },
                     "to": {
                         "startLines": "2",
@@ -67,13 +69,13 @@
                     }
                 },
                 {
-                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
+                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,-1",
-                        "startColumns": "2,-1",
-                        "startOffsets": "53,-1",
-                        "endColumns": "54,-1",
-                        "endOffsets": "105,-1"
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,108",
+                        "endColumns": "54,65",
+                        "endOffsets": "105,171"
                     },
                     "to": {
                         "startLines": "3,4",
@@ -84,11 +86,14 @@
                     }
                 },
                 {
-                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry Demo/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/styles.xml",
+                    "source": "/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry Quest SDK/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "-1,-1,-1",
-                        "startColumns": "-1,-1,-1",
-                        "startOffsets": "-1,-1,-1"
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
                     },
                     "to": {
                         "startLines": "5,7,10",

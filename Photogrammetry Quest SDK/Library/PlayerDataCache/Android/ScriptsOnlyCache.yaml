@@ -14,8 +14,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
     Unity.XR.Interaction.Toolkit.Editor.dll:
@@ -1475,4 +1473,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: /Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry_Demo_v1.0.apk
+  playerPath: /Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/Photogrammetry_Demo_v1.1.apk
