@@ -113,12 +113,13 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -403,14 +404,15 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Serialization.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
--r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/Visible Heart Lab/Test2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"/Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/TestWebGL/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"

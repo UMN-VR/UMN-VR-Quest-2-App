@@ -1,0 +1,22 @@
+{
+    "name": "WebXR.Samples.Scripts",
+    "references": [
+        "GUID:fd4abe4ffe74ef1448afe15c6cb36bb7",
+        "GUID:84a2d09f0bb073f40922f5ea5362abe7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.de-panther.webxr-input-profiles-loader",
+            "expression": "0.4.0",
+            "define": "WEBXR_INPUT_PROFILES"
+        }
+    ],
+    "noEngineReferences": false
+}

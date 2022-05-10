@@ -1,0 +1,16 @@
+{
+    "name": "WebXR",
+    "references": [
+        "Unity.XR.Management",
+        "Unity.Subsystem.Registration"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
