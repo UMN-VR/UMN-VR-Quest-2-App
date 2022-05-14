@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873768200000000
+      ticks: 637881440900000000
     m_Hash: 2401979146
   m_LockFileStatus:
     m_FilePath: /Users/felg/Library/Mobile Documents/com~apple~CloudDocs/UMN MSDR/UMNVR/VR-Phogrammetry/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/Photogrammetry
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873768250000000
+      ticks: 637881440900000000
     m_Hash: 730184771
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -991,6 +991,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.7
     - 2.0.0
     - 2.0.1
+    - 2.0.2
     compatible:
     - 0.0.6-preview
     - 0.9.0-preview
@@ -1011,6 +1012,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.7
     - 2.0.0
     - 2.0.1
+    - 2.0.2
     verified: 
   dependencies:
   - name: com.unity.inputsystem
