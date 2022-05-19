@@ -3,7 +3,7 @@
 ###### READMEv4.3
 
 Try the WebXR Build on a SteamVR headset!
-https://UMN-VR.github.io
+[https://UMN-VR.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/)
 (tecnicaly runs on a quest 2, but not optimized)
 ![Env](Gifs/test7.gif)
 Video of app v1.0: https://youtu.be/eQZTAWonZkg
