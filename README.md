@@ -178,7 +178,8 @@ Quest 2:
 ##### v1.0: 
 Avaliable only for QuestSDK.
 App does not include any multiplayer or in game interactivity functionality is simply starts up the scene starts rendering the scene and never changes it.
-⚠️This version includes the following 32-bit only (armeabi-v7a) libraries: libMonoPosixHelper.so, libOVRPlugin.so, libOculusXRPlugin.so, libmain.so, libmemalign16.so, libmemalign16_cpp.so, libmono-native.so, libmonobdwgc-2.0.so, libopenxr_loader.so, libunity.so
+
+#### ⚠️This version includes the following 32-bit only (armeabi-v7a) libraries: libMonoPosixHelper.so, libOVRPlugin.so, libOculusXRPlugin.so, libmain.so, libmemalign16.so, libmemalign16_cpp.so, libmono-native.so, libmonobdwgc-2.0.so, libopenxr_loader.so, libunity.so
 
 ##### v2.0: 
 Avaliable only for webXR.
