@@ -68,8 +68,29 @@ You should create a copy of this repository structured as follows
 VR-Photogrammetry/
 │
 ├── Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/
-│   ├── Photogrammetry Demo
-│   │   └── ...
+│   │
+│   ├── Gifs
+│   │
+│   ├── Photogrammetry Quest SDK
+│   │   ├─Assets
+│   │   ├─Library 
+│   │   ├─Logs
+│   │   ├─Packages
+│   │   ├─ProjectSettings
+│   │   ├─Test2.apk
+│   │   ├─test3.apk
+│   │   ├─test4.apl
+│   │   └─UserSettings
+│   │
+│   ├── Photogrammetry WebXR
+│   │   ├─Assets
+│   │   ├─Export 
+│   │   ├─Library 
+│   │   ├─Logs
+│   │   ├─Packages
+│   │   ├─ProjectSettings
+│   │   └─UserSettings
+│   │
 │   ├── Photogrammetry_Demo_v1.0.apk
 │   │   
 │   └── README.md
