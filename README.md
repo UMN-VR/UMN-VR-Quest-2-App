@@ -95,6 +95,9 @@ VR-Photogrammetry/
 │   │   
 │   └── README.md
 ```
+```
+git clonehttps://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App.git
+```
 ---
 ## Quest Instalation Methods & Instructions
 This section attemps to be a full set of instructions to get a you up and running with the pre-complied .apk app
