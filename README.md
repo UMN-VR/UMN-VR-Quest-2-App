@@ -80,9 +80,9 @@ This section attemps to be a full set of instructions to get a you up and runnin
 
 ---
 ### WebXR 
-You may go to "$URL" on a headset's browser or a PC connected to a Headset and try the experience 
-
-(NOT AVALIABLE YET)
+Try the WebXR Build on a SteamVR headset!
+[https://UMN-VR.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/)
+(technically runs on a quest 2 as well, but not optimized & has significant performance issues due to wasteful software stack and completely unoptimized scene. )
 
 ---
 
@@ -96,25 +96,25 @@ You may go to "$URL" on a headset's browser or a PC connected to a Headset and t
 #### Quest Setup
 * Enable Developer Mode On Quest. 
 
-#### Installer PC Setup
-* Install Sidequest on a computer. 
-https://sidequestvr.com
+#### Installing with a PC/Mac
+* Install [Sidequest](https://sidequestvr.com) on a computer. 
 
-* Download .apk file to computer
-https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/Proof-Of-Concept
+* Download .[apk](https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/v1.0-qSDK) file to computer:
 
 #### Uploading:
-* Install .apk to Quest via SideQuest
+* Install .[apk](https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/v1.0-qSDK) to Quest via SideQuest
 
 #### Running:
-* Go to "Other Sources in App menu"
+![Env](Gifs/open_app.gif)
+
+* Go to "Unknown Sources" in App menu
 * Open "Photogrammetry Demo" App 
 
 ---
 
 ## Polycam
 Polycam is the photogrammetry app that was used to scan most of the 3D models. 
-
+![Env](Gifs/Polycam.gif)
 
 ## Models
 VR Blaze (GoldyDogV4)
