@@ -152,12 +152,19 @@ Quest 2:
 
 ## Description of App Logic
 ##### v1.0: 
+Avaliable only for QuestSDK.
 App does not include any multiplayer or in game interactivity functionality is simply starts up the scene starts rendering the scene and never changes it.
 
-## WebXR 
-This is the software that allows for a unity environment to be packaged as a website plug-in that allows for a VR experience without installation of an application. 
+##### v2.0: 
+Avaliable only for webXR.
+App does not include any multiplayer, but allows for in-game interactivity with cubes and a sphere. Themed Mozilla's 3D desert env to replace plane.
+
 
 ## Additional Project Components & Tecniques 
+
+#### WebXR 
+This is the software that allows for a unity environment to be packaged as a website plug-in that allows for a VR experience without installation of an application. 
+
 #### ShapesXR Plugin:
 Allows for direct import of models created in shapesXR. After the models have been imported it is recommended to uninstall and remove the file located in assets since failing to doing so usually means you won't be able to build successfully. 
 
