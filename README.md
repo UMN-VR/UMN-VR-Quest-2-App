@@ -182,4 +182,4 @@ TODO
 ## External Links and References
 TODO
 
-###### Made robots & app made by Felipegalind0 w/❤️
+###### Robots & App made by Felipegalind0 w/❤️
