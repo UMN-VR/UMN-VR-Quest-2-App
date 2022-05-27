@@ -217,4 +217,4 @@ Actually scan museum artifacts.
 ## External Links and References
 TODO
 
-###### Robots & App made by Felipegalind0 w/❤️
+###### Robots, App, repo & website made by Felipegalind0 w/❤️
