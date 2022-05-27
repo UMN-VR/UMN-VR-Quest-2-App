@@ -42,11 +42,11 @@ Video of app v1.0: https://youtu.be/eQZTAWonZkg
 The aim of this project is to create a virtual museum inspired on a real life one. Using the same artifacts but on you and improved virtual environment. This will give the U a global reach and cement the university's position as a pioneer in virtual reality. 
 
 #### Hardware:
-At the present moment only Quest 2 native SDK app builds are being provided since the project is just at the proof of concept stage. Eventually the idea is to release a WebXR build and host it on a domain so that everyone can access it regardless of platform. 
+At the present moment only Quest 2 native SDK & WebXR app builds are being provided since the project is just at the proof of concept stage. Eventually the idea is to release a WebXR build using Babylon.js not WebGL and host it on a domain so that everyone can access it regardless of platform. 
 
 
 #### Software:
-The proof of concept project was created using Unity and it is likely that the same workflows and platforms will be used to eat the final product, we will just tweaking the specifics of it to improve the final result.
+The proof of concept project was created using Unity and it is likely that the same workflows and platforms will be used to make the final product, we will just be tweaking the specifics of it to improve the final result.
 
 To open up the project all you need to do is have a current installation of:
 
@@ -201,7 +201,7 @@ Web GL is the render engine that allows WebXR to function. It is part of this so
 
 
 ## Future Work
-TODO
+Actually scan museum artifacts. 
 
 ## External Links and References
 TODO
