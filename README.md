@@ -1,4 +1,7 @@
-# Goldstein Museum of Design Photogrammetry VR Tour App
+# (ABANDONED)Goldstein Museum of Design Photogrammetry VR Tour App
+
+# THIS PROJECT HAS BEEN ABANDONED DUE TO LACK OF FUNDING :( 
+# FEEL FREE TO USE ANY PART OF IT FOR YOUR PURPOSES
 
 ###### READMEv4.5
 
