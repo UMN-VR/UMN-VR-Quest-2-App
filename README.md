@@ -1,5 +1,5 @@
 
-###### READMEv4.5
+###### READMEv5.0 <br/> Made with ❤️ by [Felipe Galindo](https://felipegalind0.github.io)
 
 Try the WebXR Build on a SteamVR headset!
 [https://UMN-VR.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/)
