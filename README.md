@@ -1,6 +1,10 @@
 
 ###### READMEv5.0 <br/> Made with ❤️ by [Felipe Galindo](https://felipegalind0.github.io)
 
+# UMN-VR Quest 2 Photogrammetry Demo
+
+An Open Source demonstration of photogrammetry in VR, made in Unity for Quest 2 & WebVR
+
 Try the WebXR Build on a SteamVR headset!
 [https://UMN-VR.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/)
 (technically runs on a quest 2 as well, but not optimized & has significant performance issues due to wasteful software stack and completely unoptimized scene. )
